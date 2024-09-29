@@ -25,6 +25,35 @@ let booleanIsLoggedIn = Boolean(isLoggedIn) // For conversion we can write boole
 
 let someNumber =33
 let stringSomeNumber = String (someNumber)
-console.log(typeof stringSomeNumber);
+// console.log(typeof stringSomeNumber);
+
+
+// Operations : 7th Lecture Video //
+
+let value = 3
+let negValue = -value
+// console.log(negValue)
+
+let str1 = "hello"
+let str2 = " hitesh"
+let str3 = str1 + str2
+//console.log(str3);
+
+// console.log("1" + 2);
+// console.log(1 + "2")
+// console.log("1" + 2 + 2)
+// console.log(1 + 2 + "2")
+console.log(+true);
+console.log(+"");
+
+let gameCounter = 100
+gameCounter++
+console.log(gameCounter);
+
+let gameCounter2 = 100
+++gameCounter2
+console.log(gameCounter2);
+
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment // 
 
 
