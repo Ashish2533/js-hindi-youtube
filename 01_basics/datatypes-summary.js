@@ -27,3 +27,39 @@ let myObject = {
 const myFunction = function(){
     console.log("Hello World")
 }
+
+
+/* Memory are of 2 types: Stack Memory & Heap Memory 
+ Stack (Primitive data types are used )
+ Heap (Non-Primitive data types are used)
+
+
+ In Stack you get the Copy
+ & In Heap you get the Refrence
+*/ 
+
+// Stack Memory // 
+let myYotubeName = "hiteshchoudharydotcom"
+
+let anotherName = myYotubeName
+anotherName = "chaiaurcode"
+
+console.log(myYotubeName)
+console.log(anotherName)
+
+// ***************** Heap Memory************************** //
+
+let userOne = {
+    email: "user@google.com",
+    upiId: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "hitesh@google.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
+
+
+
